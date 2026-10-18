@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bất Ngờ 20/10 — Lớp K26402B ✨</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: STIX Two Text (Regular, Italic, Bold, Bold Italic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <script>
+    try {
+      if (window.tailwind) {
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                rosePink: '#FBA1B7',
+                blushPink: '#FFD1DA',
+                lavenderCream: '#FFF0F5',
+                warmPeach: '#FFDBAA',
+                deepWine: '#541E2B',
+                softWine: '#7D3246'
+              },
+              fontFamily: {
+                stix: ['"STIX Two Text"', 'Georgia', 'serif']
+              }
+            }
+          }
+        };
+      }
+    } catch (e) {}
+  </script>
+
+  <style>
+    :root {
+      --c-rose: #FBA1B7;
+      --c-blush: #FFD1DA;
+      --c-cream: #FFF0F5;
+      --c-peach: #FFDBAA;
+      --c-text: #541E2B;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: 'STIX Two Text', Georgia, serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--c-text);
+      background: linear-gradient(135deg, #FBA1B7 0%, #FFD1DA 32%, #FFF0F5 68%, #FFDBAA 100%);
+      background-attachment: fixed;
+      overflow-x: hidden;
+    }
+
+    /* Animated mesh gradients */
+    .bg-orb-1 {
+      position: fixed;
+      top: -120px;
+      left: -120px;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(251, 161, 183, 0.75) 0%, rgba(255, 209, 218, 0) 70%);
+      filter: blur(25px);
+      z-index: 0;
+      animation: floatOrb 12s ease-in-out infinite alternate;
+      pointer-events: none;
+    }
+
+    .bg-orb-2 {
+      position: fixed;
+      bottom: -140px;
+      right: -100px;
+      width: 480px;
+      height: 480px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255, 219, 170, 0.85) 0%, rgba(255, 240, 245, 0) 70%);
+      filter: blur(30px);
+      z-index: 0;
+      animation: floatOrb 15s ease-in-out infinite alternate-reverse;
+      pointer-events: none;
+    }
+
+    @keyframes floatOrb {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(40px, 30px) scale(1.08); }
+    }
+
+    /* Multi-frame aesthetic borders & cards */
+    .editorial-outer-frame {
+      background: linear-gradient(145deg, rgba(255, 240, 245, 0.92), rgba(255, 209, 218, 0.85), rgba(255, 219, 170, 0.85));
+      border: 2px solid #FBA1B7;
+      box-shadow:
+        0 20px 50px rgba(125, 50, 70, 0.14),
+        0 0 0 6px rgba(255, 240, 245, 0.65),
+        0 0 0 8px rgba(251, 161, 183, 0.45);
+      backdrop-filter: blur(14px);
+    }
+
+    .inner-bento-frame {
+      background: linear-gradient(160deg, #FFF0F5 0%, #FFD1DA 55%, #FFDBAA 100%);
+      border: 1.5px solid rgba(251, 161, 183, 0.85);
+      box-shadow: inset 0 2px 8px rgba(255, 255, 255, 0.8), 0 8px 20px rgba(125, 50, 70, 0.07);
+    }
+
+    .cream-card-frame {
+      background: rgba(255, 240, 245, 0.94);
+      border: 1.5px dashed #FBA1B7;
+      box-shadow: 0 6px 18px rgba(251, 161, 183, 0.22);
+    }
+
+    .peach-tag-frame {
+      background: linear-gradient(90deg, #FFDBAA 0%, #FFD1DA 50%, #FBA1B7 100%);
+      border: 1px solid #FBA1B7;
+    }
+
+    .btn-surprise {
+      background: linear-gradient(135deg, #FBA1B7 0%, #FFD1DA 48%, #FFDBAA 100%);
+      border: 2px solid #FFF0F5;
+      box-shadow:
+        0 10px 25px rgba(251, 161, 183, 0.55),
+        0 0 0 4px rgba(251, 161, 183, 0.35);
+      transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .btn-surprise:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow:
+        0 15px 32px rgba(251, 161, 183, 0.7),
+        0 0 0 6px rgba(255, 219, 170, 0.65);
+    }
+
+    .btn-surprise:active {
+      transform: translateY(1px) scale(0.99);
+    }
+
+    /* Polaroid Frame for Memes */
+    .polaroid-frame {
+      background: #FFF0F5;
+      border: 2px solid #FBA1B7;
+      padding: 14px 14px 20px 14px;
+      box-shadow:
+        0 14px 28px rgba(84, 30, 43, 0.12),
+        0 0 0 4px rgba(255, 219, 170, 0.55);
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .polaroid-frame:hover {
+      transform: translateY(-4px) rotate(0deg) !important;
+      box-shadow:
+        0 20px 36px rgba(84, 30, 43, 0.18),
+        0 0 0 5px rgba(251, 161, 183, 0.65);
+    }
+
+    /* Screen transition */
+    .screen-section {
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+
+    .screen-hidden {
+      display: none !important;
+      opacity: 0;
+      transform: translateY(16px);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FFF0F5;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #FBA1B7;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="relative min-h-screen flex flex-col justify-between selection:bg-rosePink selection:text-deepWine">
+
+  <!-- Background Orbs & Petal Canvas -->
+  <div class="bg-orb-1"></div>
+  <div class="bg-orb-2"></div>
+  <canvas id="petalCanvas" class="fixed inset-0 pointer-events-none z-10"></canvas>
+
+  <!-- TOP NAVIGATION / PALETTE BAR -->
+  <header class="relative z-30 w-full max-w-5xl mx-auto px-4 pt-4 pb-2 flex flex-wrap items-center justify-between gap-3">
+    <!-- Left Brand Badge -->
+    <div class="cream-card-frame rounded-full px-4 py-1.5 flex items-center gap-2.5">
+      <span class="inline-block w-3 h-3 rounded-full bg-[#FBA1B7] animate-ping"></span>
+      <span class="text-sm sm:text-base tracking-wide">
+        <strong class="font-bold">K26402B</strong> • <em>Vietnamese Women's Day</em> <span class="font-bold italic text-[#7D3246]">20/10</span>
+      </span>
+    </div>
+
+    <!-- Color Palette Dots Only -->
+    <div class="flex items-center gap-2.5">
+      <div class="flex items-center gap-2 bg-white/75 backdrop-blur-md px-3.5 py-2 rounded-full border border-[#FBA1B7]/60 shadow-sm" title="Tone màu chủ đạo: #FBA1B7 • #FFD1DA • #FFF0F5 • #FFDBAA">
+        <span class="w-4 h-4 rounded-full border border-white shadow-sm" style="background:#FBA1B7"></span>
+        <span class="w-4 h-4 rounded-full border border-white shadow-sm" style="background:#FFD1DA"></span>
+        <span class="w-4 h-4 rounded-full border border-[#FBA1B7]/40 shadow-sm" style="background:#FFF0F5"></span>
+        <span class="w-4 h-4 rounded-full border border-white shadow-sm" style="background:#FFDBAA"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="relative z-20 flex-1 flex items-center justify-center w-full max-w-5xl mx-auto px-4 py-6">
+
+    <!-- ==========================================
+        SCREEN 1: TRANG MỞ ĐẦU (LANDING SURPRISE)
+        ========================================== -->
+    <section id="screenLanding" class="screen-section w-full max-w-3xl mx-auto">
+      <div class="editorial-outer-frame rounded-3xl p-5 sm:p-8 md:p-10 relative overflow-hidden">
+
+        <!-- Corner decorative stamps -->
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-6">
+          <div class="peach-tag-frame rounded-full px-4 py-1 text-xs sm:text-sm shadow-sm">
+            <span class="font-normal">Gửi đến:</span> <strong class="font-bold">Tập thể lớp K26402B</strong>
+          </div>
+          <div class="cream-card-frame rounded-full px-4 py-1 text-xs sm:text-sm">
+            <em>Happy Vietnamese Women's Day</em> • <strong>20.10</strong>
+          </div>
+        </div>
+
+        <!-- Multi-Frame Hero Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-6">
+          <!-- Main Left Frame -->
+          <div class="md:col-span-8 inner-bento-frame rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative">
+            <div class="mb-3">
+              <span class="inline-block px-3 py-1 rounded-full bg-[#FFF0F5] border border-[#FBA1B7] text-xs italic font-semibold mb-3">
+                🌸 Tháng Mười Dịu Dàng & Rực Rỡ
+              </span>
+              <h1 class="text-3xl sm:text-4xl md:text-5xl leading-tight tracking-tight text-[#541E2B]">
+                <span class="font-normal">Một Chút</span> <em class="italic font-normal">Ngọt Ngào,</em><br />
+                <strong class="font-bold">Một Ngàn Điều</strong> <strong class="font-bold italic underline decoration-[#FBA1B7]">Bất Ngờ!</strong>
+              </h1>
+            </div>
+
+            <p class="text-base sm:text-lg leading-relaxed text-[#7D3246] mt-2">
+              Hôm nay là ngày <strong class="font-bold">20 tháng 10</strong>, ngày tôn vinh những <em>“đoá hoa xinh đẹp”</em> của đại gia đình <strong class="font-bold italic">K26402B</strong>. Chúng mình đã chuẩn bị một chiếc hộp bí mật đầy ắp lời chúc và những chiếc meme cực phẩm dành riêng cho từng thành viên trong lớp!
+            </p>
+          </div>
+
+          <!-- Right Decorative Bento Frames -->
+          <div class="md:col-span-4 flex flex-col gap-4">
+            <div class="cream-card-frame rounded-2xl p-4 flex-1 flex flex-col items-center justify-center text-center">
+              <div class="text-4xl mb-2 animate-bounce">💐</div>
+              <div class="text-2xl font-bold text-[#541E2B]">45</div>
+              <div class="text-xs sm:text-sm italic text-[#7D3246]">
+                <strong>Bông hoa xinh đẹp</strong> của lớp <em>K26402B</em>
+              </div>
+            </div>
+
+            <div class="peach-tag-frame rounded-2xl p-4 flex-1 flex flex-col items-center justify-center text-center">
+              <div class="text-3xl mb-1">🕵️‍♂️</div>
+              <div class="text-xl font-bold italic text-[#541E2B]">+15 Bạn Nam</div>
+              <div class="text-xs italic text-[#541E2B]/90">
+                Thử nhập tên xem có <strong class="font-bold">bất ngờ</strong> gì không nhé!
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quote Frame -->
+        <div class="cream-card-frame rounded-2xl p-4 sm:p-5 mb-7 text-center">
+          <p class="text-sm sm:text-base text-[#7D3246]">
+            “<em class="italic">Tháng Mười dịu dàng vì có nụ cười của bạn,</em> <strong class="font-bold">giữ mãi vẻ rạng rỡ trên môi</strong> <strong class="font-bold italic">làm cả thế giới này ngừng trôi!</strong>”
+          </p>
+        </div>
+
+        <!-- MAIN CALL TO ACTION BUTTON -->
+        <div class="flex flex-col items-center justify-center">
+          <button
+            type="button"
+            id="btnOpenSurprise"
+            class="btn-surprise rounded-full px-8 sm:px-12 py-4 sm:py-5 text-lg sm:text-2xl text-[#541E2B] cursor-pointer group flex items-center gap-3"
+          >
+            <span class="text-2xl group-hover:rotate-12 transition">🎁</span>
+            <span>
+              <strong class="font-bold">Bấm vào đây</strong> <em class="italic">để xem một</em> <strong class="font-bold italic">bất ngờ ✨</strong>
+            </span>
+          </button>
+          <span class="mt-3 text-xs sm:text-sm italic text-[#7D3246]">
+            (Bấm vào nút trên để <strong class="font-bold">mở khoá khung tìm kiếm</strong> dành riêng cho lớp <em class="italic">K26402B</em> 🌸)
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+        SCREEN 2: KHUNG TÌM KIẾM TÊN CỦA BẠN
+        ========================================== -->
+    <section id="screenSearch" class="screen-section screen-hidden w-full max-w-4xl mx-auto">
+      <div class="editorial-outer-frame rounded-3xl p-5 sm:p-8 relative">
+
+        <!-- Top Back & Status Row -->
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-6">
+          <button type="button" id="btnBackToLanding" class="cream-card-frame rounded-full px-4 py-1.5 text-xs sm:text-sm font-bold hover:bg-[#FFD1DA]/70 transition flex items-center gap-1.5">
+            ← <em>Quay lại trang đầu</em>
+          </button>
+          <div class="peach-tag-frame rounded-full px-4 py-1.5 text-xs sm:text-sm">
+            ✨ <strong class="font-bold">Bước 2/3:</strong> <em>Nhập tên hoặc Mã SV để mở quà</em>
+          </div>
+        </div>
+
+        <!-- Search Header Frame -->
+        <div class="inner-bento-frame rounded-2xl p-5 sm:p-7 text-center mb-6">
+          <h2 class="text-2xl sm:text-4xl text-[#541E2B] mb-2">
+            <span class="font-normal">Khung Tìm Kiếm</span> <strong class="font-bold italic">Tên Của Bạn</strong> 💌
+          </h2>
+          <p class="text-sm sm:text-base text-[#7D3246] max-w-2xl mx-auto">
+            Hãy nhập <strong class="font-bold">Họ và Tên</strong>, <em class="italic">Tên riêng</em> (ví dụ: <strong class="font-bold italic">An, Anh, Thảo, Huyền, Bảo, Đức...</strong>) hoặc <strong class="font-bold">Mã số sinh viên</strong> của bạn trong lớp <strong class="font-bold italic">K26402B</strong> để xem tiếp điều bất ngờ!
+          </p>
+
+          <!-- Search Input Box -->
+          <div class="mt-6 max-w-xl mx-auto relative">
+            <div class="flex flex-col sm:flex-row gap-3">
+              <div class="relative flex-1">
+                <input
+                  id="studentSearchInput"
+                  type="text"
+                  placeholder="Nhập tên hoặc Mã SV của bạn để xem tiếp..."
+                  autocomplete="off"
+                  class="w-full rounded-2xl bg-[#FFF0F5] border-2 border-[#FBA1B7] px-5 py-3.5 text-base sm:text-lg text-[#541E2B] placeholder-[#7D3246]/60 focus:outline-none focus:ring-4 focus:ring-[#FFDBAA] shadow-inner"
+                />
+                <button
+                  type="button"
+                  id="clearInputBtn"
+                  class="hidden absolute right-3.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-[#FFD1DA] hover:bg-[#FBA1B7] text-[#541E2B] font-bold text-xs flex items-center justify-center"
+                  title="Xoá"
+                >
+                  ✕
+                </button>
+              </div>
+              <button
+                type="button"
+                id="btnSubmitSearch"
+                class="btn-surprise rounded-2xl px-7 py-3.5 text-base sm:text-lg font-bold text-[#541E2B] shrink-0 flex items-center justify-center gap-2"
+              >
+                <span>Xem tiếp</span>
+                <span class="italic font-normal">→</span>
+              </button>
+            </div>
+
+            <!-- Validation / Disambiguation Notice -->
+            <div id="searchHelperAlert" class="hidden mt-3 cream-card-frame rounded-xl p-3.5 text-left text-sm"></div>
+          </div>
+        </div>
+
+        <!-- Live Matching Suggestions Frame -->
+        <div id="liveSuggestionsBox" class="cream-card-frame rounded-2xl p-4 sm:p-5 mb-5">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+            <h3 class="text-sm sm:text-base text-[#541E2B]">
+              🔍 <strong class="font-bold">Danh sách gợi ý nhanh</strong> <em id="suggestionCountLabel" class="italic text-[#7D3246]">(Hiển thị 60 thành viên K26402B)</em>:
+            </h3>
+            <div class="flex items-center gap-1.5 text-xs">
+              <button type="button" id="filterAllBtn" class="px-3 py-1 rounded-full bg-[#FBA1B7] text-[#541E2B] font-bold transition">
+                Tất cả (60)
+              </button>
+              <button type="button" id="filterFemaleBtn" class="px-3 py-1 rounded-full bg-[#FFD1DA]/70 hover:bg-[#FBA1B7] text-[#541E2B] italic font-semibold transition">
+                🌸 Nữ (45)
+              </button>
+              <button type="button" id="filterMaleBtn" class="px-3 py-1 rounded-full bg-[#FFDBAA]/80 hover:bg-[#FBA1B7] text-[#541E2B] italic font-semibold transition">
+                🕵️‍♂️ Nam (15)
+              </button>
+            </div>
+          </div>
+
+          <!-- Student Pills Grid -->
+          <div id="studentGridContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 max-h-64 overflow-y-auto pr-1">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Custom Tip -->
+        <div class="text-center text-xs sm:text-sm italic text-[#7D3246]">
+          💡 <span class="font-normal">Mẹo nhỏ:</span> Bạn có thể <strong class="font-bold">bấm trực tiếp vào thẻ tên của mình</strong> ở khung trên hoặc gõ tên rồi ấn <strong class="font-bold italic">“Xem tiếp”</strong> nhé!
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+        SCREEN 3A: KẾT QUẢ DÀNH CHO BẠN NỮ (FEMALE)
+        ========================================== -->
+    <section id="screenFemaleResult" class="screen-section screen-hidden w-full max-w-5xl mx-auto">
+      <div class="editorial-outer-frame rounded-3xl p-5 sm:p-8 relative">
+
+        <!-- Top Navigation Row -->
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-6">
+          <button type="button" id="btnBackFromFemale" class="cream-card-frame rounded-full px-4 py-1.5 text-xs sm:text-sm font-bold hover:bg-[#FFD1DA]/70 transition">
+            ← <em>Tìm một tên khác</em>
+          </button>
+          <div class="flex items-center gap-2">
+            <button type="button" id="btnCelebrateConfetti" class="peach-tag-frame rounded-full px-4 py-1.5 text-xs sm:text-sm font-bold italic hover:scale-105 transition">
+              🎉 Bắn hoa chúc mừng
+            </button>
+            <button type="button" id="btnCycleWish" class="cream-card-frame rounded-full px-4 py-1.5 text-xs sm:text-sm font-bold hover:bg-[#FFD1DA]/70 transition">
+              💌 <em>Đổi câu chúc khác</em>
+            </button>
+          </div>
+        </div>
+
+        <!-- Bento Header + Greeting Frame -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 mb-7">
+          <!-- Student VIP Badge Card -->
+          <div class="lg:col-span-5 inner-bento-frame rounded-2xl p-6 flex flex-col justify-between relative overflow-hidden">
+            <div>
+              <span class="inline-block px-3 py-1 rounded-full bg-[#FFF0F5] border border-[#FBA1B7] text-xs font-bold italic text-[#7D3246] mb-3">
+                👑 Nữ Thần Lớp K26402B
+              </span>
+              <p class="text-sm italic text-[#7D3246]">Gửi ngàn lời thương mến đến bạn:</p>
+              <h2 id="femaleFullName" class="text-2xl sm:text-3xl md:text-4xl font-bold italic text-[#541E2B] mt-1 leading-snug">
+                Nguyễn Thúy An
+              </h2>
+            </div>
+
+            <div class="mt-5 pt-4 border-t border-[#FBA1B7]/60 flex flex-wrap items-center justify-between gap-2 text-xs sm:text-sm">
+              <div class="cream-card-frame rounded-xl px-3 py-1.5">
+                <span class="italic">Mã SV:</span> <strong id="femaleStudentId" class="font-bold">K264020032</strong>
+              </div>
+              <div class="peach-tag-frame rounded-xl px-3 py-1.5">
+                <span class="italic">STT Lớp:</span> <strong id="femaleStudentStt" class="font-bold">#01</strong>
+              </div>
+              <div class="cream-card-frame rounded-xl px-3 py-1.5 font-bold italic text-[#7D3246]">
+                🌸 Xinh Đẹp 1000%
+              </div>
+            </div>
+          </div>
+
+          <!-- Greeting Message Frame -->
+          <div class="lg:col-span-7 cream-card-frame rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs sm:text-sm uppercase tracking-widest font-bold text-[#7D3246]">
+                  ✨ Lời Chúc 20/10 Dành Riêng Cho Bạn ✨
+                </span>
+                <span id="wishIndexBadge" class="text-xs italic px-2.5 py-0.5 rounded-full bg-[#FFD1DA] font-semibold">
+                  Lời chúc #1/5
+                </span>
+              </div>
+              <div id="femaleWishContent" class="text-base sm:text-lg leading-relaxed text-[#541E2B] space-y-2">
+                <!-- Populated dynamically -->
+              </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-[#FBA1B7]/40 flex flex-wrap items-center justify-between gap-2 text-xs sm:text-sm text-[#7D3246]">
+              <span>🌸 Dành tặng: <strong class="font-bold">Phái đẹp lớp K26402B</strong></span>
+              <span class="italic font-semibold">“Chúc bạn luôn rạng rỡ như ánh nắng tháng Mười!”</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 MEME FRAMES SECTION FOR FEMALE -->
+        <div class="inner-bento-frame rounded-3xl p-5 sm:p-7">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-5">
+            <div>
+              <h3 class="text-xl sm:text-2xl text-[#541E2B]">
+                📸 <strong class="font-bold">Bộ Đôi Meme Đặc Quyền 20/10</strong> <em class="italic text-[#7D3246]">(Xinh Ngoan Yêu x2)</em>
+              </h3>
+              <p class="text-xs sm:text-sm italic text-[#7D3246]">
+                Nhân dịp 20/10, tặng liền <strong class="font-bold">2 chiếc meme</strong> cực phẩm khác nhau cho <strong id="femaleShortNameMeme" class="font-bold italic">bạn</strong> luôn tươi cười nhé!
+              </p>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button type="button" id="btnToggleFemaleMemeMode" class="cream-card-frame rounded-full px-3.5 py-1.5 text-xs font-bold italic hover:bg-[#FBA1B7]/40 transition">
+                🔄 Đổi chế độ hiển thị Ảnh / Khung Drive
+              </button>
+            </div>
+          </div>
+
+          <!-- Two Polaroid Meme Frames Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- MEME 01 -->
+            <div class="polaroid-frame rounded-2xl md:-rotate-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-3 py-0.5 rounded-full bg-[#FFD1DA] text-xs font-bold text-[#541E2B]">
+                    💖 Meme #01 • Giao Diện Ngày 20/10
+                  </span>
+                  <a href="https://drive.google.com/file/d/1jXX7H9l5HGz-9dpnB5vxuuDX7pvIGd-n/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="text-xs px-2.5 py-0.5 rounded-full bg-[#FFDBAA]/80 hover:bg-[#FFDBAA] font-bold text-[#541E2B] transition">
+                    Link gốc 1 ↗
+                  </a>
+                </div>
+
+                <!-- Image Mode -->
+                <div id="femaleMemeImgWrap1" class="relative w-full rounded-xl overflow-hidden bg-[#FFF0F5] border border-[#FBA1B7]/60 min-h-[260px] flex items-center justify-center">
+                  <img
+                    id="femaleMemeImg1"
+                    src="https://drive.google.com/thumbnail?id=1jXX7H9l5HGz-9dpnB5vxuuDX7pvIGd-n&sz=w1000"
+                    alt="Meme chúc mừng 20/10 #1"
+                    class="w-full max-h-[380px] object-contain mx-auto transition duration-500 hover:scale-105"
+                  />
+                </div>
+
+                <!-- Fallback/Toggle Iframe Preview Mode -->
+                <div id="femaleMemeIframeWrap1" class="hidden w-full rounded-xl overflow-hidden border border-[#FBA1B7] bg-[#FFF0F5] h-[320px]">
+                  <iframe
+                    src="https://drive.google.com/file/d/1jXX7H9l5HGz-9dpnB5vxuuDX7pvIGd-n/preview"
+                    class="w-full h-full border-0"
+                    allow="autoplay"
+                    title="Meme Nữ 1"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="mt-3 pt-2 text-center">
+                <p class="text-sm sm:text-base text-[#541E2B]">
+                  <strong class="font-bold">Meme 1:</strong> <em class="italic">“Khi hội con gái K26402B vừa xinh đẹp vừa được nhận quà 20/10!”</em> 🌸✨
+                </p>
+              </div>
+            </div>
+
+            <!-- MEME 02 -->
+            <div class="polaroid-frame rounded-2xl md:rotate-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="px-3 py-0.5 rounded-full bg-[#FFDBAA] text-xs font-bold text-[#541E2B]">
+                    ✨ Meme #02 • Nhân Đôi Sự Đáng Yêu
+                  </span>
+                  <a href="https://drive.google.com/file/d/1xcABnwAkwLELhBr3kQG_Av7sbYoqThF1/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="text-xs px-2.5 py-0.5 rounded-full bg-[#FFD1DA] hover:bg-[#FBA1B7] font-bold text-[#541E2B] transition">
+                    Link gốc 2 ↗
+                  </a>
+                </div>
+
+                <!-- Image Mode -->
+                <div id="femaleMemeImgWrap2" class="relative w-full rounded-xl overflow-hidden bg-[#FFF0F5] border border-[#FBA1B7]/60 min-h-[260px] flex items-center justify-center">
+                  <img
+                    id="femaleMemeImg2"
+                    src="https://drive.google.com/thumbnail?id=1xcABnwAkwLELhBr3kQG_Av7sbYoqThF1&sz=w1000"
+                    alt="Meme chúc mừng 20/10 #2"
+                    class="w-full max-h-[380px] object-contain mx-auto transition duration-500 hover:scale-105"
+                  />
+                </div>
+
+                <!-- Fallback/Toggle Iframe Preview Mode -->
+                <div id="femaleMemeIframeWrap2" class="hidden w-full rounded-xl overflow-hidden border border-[#FBA1B7] bg-[#FFF0F5] h-[320px]">
+                  <iframe
+                    src="https://drive.google.com/file/d/1xcABnwAkwLELhBr3kQG_Av7sbYoqThF1/preview"
+                    class="w-full h-full border-0"
+                    allow="autoplay"
+                    title="Meme Nữ 2"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="mt-3 pt-2 text-center">
+                <p class="text-sm sm:text-base text-[#541E2B]">
+                  <strong class="font-bold">Meme 2:</strong> <em class="italic">“Thêm một chiếc meme độc quyền cho ngày 20/10 trọn vẹn niềm vui!”</em> 🌷💖
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+        SCREEN 3B: KẾT QUẢ DÀNH CHO BẠN NAM (MALE TROLL)
+        ========================================== -->
+    <section id="screenMaleResult" class="screen-section screen-hidden w-full max-w-4xl mx-auto">
+      <div class="editorial-outer-frame rounded-3xl p-5 sm:p-8 relative">
+
+        <!-- Top Action Row -->
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-6">
+          <button type="button" id="btnBackFromMale" class="cream-card-frame rounded-full px-4 py-1.5 text-xs sm:text-sm font-bold hover:bg-[#FFD1DA]/70 transition">
+            ← <em>Quay lại nhường chỗ cho các bạn nữ</em>
+          </button>
+          <span class="peach-tag-frame rounded-full px-4 py-1.5 text-xs sm:text-sm font-bold italic">
+            🚨 CẢNH BÁO NHẦM TRẠM PHÁT QUÀ 20/10 🚨
+          </span>
+        </div>
+
+        <!-- Main Male Troll Bento Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+          <!-- Left Text Frame -->
+          <div class="md:col-span-6 space-y-4">
+            <div class="inner-bento-frame rounded-2xl p-6">
+              <span class="inline-block px-3 py-1 rounded-full bg-[#FFDBAA] border border-[#FBA1B7] text-xs font-bold mb-3">
+                🕵️‍♂️ Phát hiện thành viên Nam K26402B
+              </span>
+
+              <div class="text-xs sm:text-sm italic text-[#7D3246] mb-1">
+                Hệ thống vừa quét ra tên của: <strong id="maleStudentMeta" class="font-bold">Võ Lê Gia Bảo (K264020272)</strong>
+              </div>
+
+              <h2 class="text-2xl sm:text-3xl md:text-4xl leading-snug text-[#541E2B] mt-2">
+                “<strong class="font-bold">Ủa bạn</strong> <strong id="maleFullNameHighlight" class="font-bold italic underline decoration-[#FBA1B7]">Võ Lê Gia Bảo</strong> <em class="italic">chuyển giới hồi nào vậy?!</em> 🤣💅”
+              </h2>
+
+              <p class="mt-4 text-base sm:text-lg leading-relaxed text-[#7D3246]">
+                Hôm nay là ngày <strong class="font-bold">20/10</strong> dành riêng cho <em class="italic">45 bông hoa xinh đẹp</em> của lớp <strong class="font-bold italic">K26402B</strong> mà ta? Sao bạn lại lén vào đây tìm tên nhận quà ké thế này?! 😂
+              </p>
+            </div>
+
+            <div class="cream-card-frame rounded-2xl p-4 sm:p-5">
+              <p class="text-sm sm:text-base text-[#541E2B]">
+                💡 <strong class="font-bold">Nhiệm vụ khẩn cấp cho bạn:</strong> <em class="italic">Mau quay lại chuẩn bị lời chúc thật kêu và quà thật xịn để gửi tặng các bạn nữ trong lớp ngay đi nhé!</em>
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2.5">
+                <button type="button" id="btnToFemaleListFromMale" class="btn-surprise rounded-xl px-4 py-2.5 text-sm font-bold text-[#541E2B]">
+                  🌸 Xem danh sách 45 bạn nữ để chúc 20/10
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Polaroid Meme Frame (Male) -->
+          <div class="md:col-span-6">
+            <div class="polaroid-frame rounded-2xl md:rotate-1">
+              <div class="flex items-center justify-between mb-2.5">
+                <span class="px-3 py-1 rounded-full bg-[#FBA1B7]/60 text-xs font-bold text-[#541E2B]">
+                  🤨 Meme Kiểm Tra Giới Tính 20/10
+                </span>
+                <div class="flex items-center gap-1.5">
+                  <button type="button" id="btnToggleMaleMemeMode" class="text-xs underline italic font-bold text-[#7D3246] hover:text-[#541E2B]">
+                    Đổi chế độ xem
+                  </button>
+                  <a href="https://drive.google.com/file/d/1APOaEx5gtC2DZZx-4TpXKjlppgbFPoB8/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-xs px-2 py-0.5 rounded bg-[#FFDBAA] font-bold">
+                    Link gốc ↗
+                  </a>
+                </div>
+              </div>
+
+              <!-- Image View -->
+              <div id="maleMemeImgWrap" class="relative w-full rounded-xl overflow-hidden bg-[#FFF0F5] border border-[#FBA1B7] min-h-[280px] flex items-center justify-center">
+                <img
+                  id="maleMemeImg"
+                  src="https://drive.google.com/thumbnail?id=1APOaEx5gtC2DZZx-4TpXKjlppgbFPoB8&sz=w1000"
+                  alt="Meme ủa bạn chuyển giới hồi nào vậy"
+                  class="w-full max-h-[400px] object-contain mx-auto transition duration-500 hover:scale-105"
+                />
+              </div>
+
+              <!-- Fallback / Toggle Google Drive Iframe View -->
+              <div id="maleMemeIframeWrap" class="hidden w-full rounded-xl overflow-hidden border border-[#FBA1B7] bg-[#FFF0F5] h-[340px]">
+                <iframe
+                  src="https://drive.google.com/file/d/1APOaEx5gtC2DZZx-4TpXKjlppgbFPoB8/preview"
+                  class="w-full h-full border-0"
+                  allow="autoplay"
+                  title="Meme Nam"
+                ></iframe>
+              </div>
+
+              <div class="mt-3 text-center">
+                <p class="text-base sm:text-lg text-[#541E2B]">
+                  <strong class="font-bold italic">“Ủa bạn chuyển giới hồi nào vậy?!”</strong> 😭💅
+                </p>
+                <p class="text-xs italic text-[#7D3246] mt-0.5">
+                  (Bắt quả tang 1 thành viên nam K26402B đi lạc vào trạm phát quà 20/10)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="relative z-20 w-full mt-8 border-t border-[#FBA1B7]/40 bg-[#FFF0F5]/55 backdrop-blur-sm">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-[#7A4355]">
+      <p class="font-normal">
+        <strong class="font-semibold">K26402B</strong> <span class="mx-1.5 opacity-50">•</span> <em class="italic">Happy Vietnamese Women's Day 20/10</em>
+      </p>
+      <p class="font-medium tracking-wide text-center">
+        copyright@kduytran-tthainguyen
+      </p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    (function () {
+      "use strict";
+
+      // =====================================================
+      // 1. DANH SÁCH LỚP K26402B (60 SINH VIÊN: 45 NỮ, 15 NAM)
+      // =====================================================
+      const CLASS_K26402B = [
+        {"stt": 1, "id": "K264020032", "firstName": "An", "lastName": "Nguyễn Thúy", "fullName": "Nguyễn Thúy An", "gender": "F"},
+        {"stt": 2, "id": "K264020033", "firstName": "An", "lastName": "Nguyễn Thụy Mỹ", "fullName": "Nguyễn Thụy Mỹ An", "gender": "F"},
+        {"stt": 3, "id": "K264020044", "firstName": "An", "lastName": "Trương Quỳnh", "fullName": "Trương Quỳnh An", "gender": "F"},
+        {"stt": 4, "id": "K264020128", "firstName": "Anh", "lastName": "Nguyễn Lê Phương", "fullName": "Nguyễn Lê Phương Anh", "gender": "F"},
+        {"stt": 5, "id": "K264020148", "firstName": "Anh", "lastName": "Nguyễn Phạm Lan", "fullName": "Nguyễn Phạm Lan Anh", "gender": "F"},
+        {"stt": 6, "id": "K264020177", "firstName": "Anh", "lastName": "Phan Trần Trâm", "fullName": "Phan Trần Trâm Anh", "gender": "F"},
+        {"stt": 7, "id": "K264020182", "firstName": "Anh", "lastName": "Phạm Lâm", "fullName": "Phạm Lâm Anh", "gender": "F"},
+        {"stt": 8, "id": "K264020199", "firstName": "Anh", "lastName": "Trần Lan", "fullName": "Trần Lan Anh", "gender": "F"},
+        {"stt": 9, "id": "K264020272", "firstName": "Bảo", "lastName": "Võ Lê Gia", "fullName": "Võ Lê Gia Bảo", "gender": "M"},
+        {"stt": 10, "id": "K264020303", "firstName": "Bội", "lastName": "Tsàn Mỹ", "fullName": "Tsàn Mỹ Bội", "gender": "F"},
+        {"stt": 11, "id": "K264020360", "firstName": "Chi", "lastName": "Võ Hồng Quế", "fullName": "Võ Hồng Quế Chi", "gender": "F"},
+        {"stt": 12, "id": "K264020406", "firstName": "Dung", "lastName": "Nguyễn Thị Thanh", "fullName": "Nguyễn Thị Thanh Dung", "gender": "F"},
+        {"stt": 13, "id": "K264020518", "firstName": "Đạt", "lastName": "Trần Quốc", "fullName": "Trần Quốc Đạt", "gender": "M"},
+        {"stt": 14, "id": "K264020553", "firstName": "Đức", "lastName": "Lê Minh", "fullName": "Lê Minh Đức", "gender": "M"},
+        {"stt": 15, "id": "K264020563", "firstName": "Đức", "lastName": "Trần Ngọc", "fullName": "Trần Ngọc Đức", "gender": "M"},
+        {"stt": 16, "id": "K264020565", "firstName": "Đức", "lastName": "Vũ Minh", "fullName": "Vũ Minh Đức", "gender": "M"},
+        {"stt": 17, "id": "K264020588", "firstName": "Giang", "lastName": "Nguyễn Thị Hoài", "fullName": "Nguyễn Thị Hoài Giang", "gender": "F"},
+        {"stt": 18, "id": "K264020640", "firstName": "Hà", "lastName": "Trần Ngọc Thái", "fullName": "Trần Ngọc Thái Hà", "gender": "F"},
+        {"stt": 19, "id": "K264020741", "firstName": "Hân", "lastName": "Trần Diệu", "fullName": "Trần Diệu Hân", "gender": "F"},
+        {"stt": 20, "id": "K264020750", "firstName": "Hân", "lastName": "Trương Gia", "fullName": "Trương Gia Hân", "gender": "F"},
+        {"stt": 21, "id": "K264020785", "firstName": "Hiếu", "lastName": "Đặng Văn", "fullName": "Đặng Văn Hiếu", "gender": "M"},
+        {"stt": 22, "id": "K264020786", "firstName": "Hiếu", "lastName": "Đoàn Trọng", "fullName": "Đoàn Trọng Hiếu", "gender": "M"},
+        {"stt": 23, "id": "K264020808", "firstName": "Hiệp", "lastName": "Đào Hữu", "fullName": "Đào Hữu Hiệp", "gender": "M"},
+        {"stt": 24, "id": "K264020861", "firstName": "Huy", "lastName": "Hà Nguyễn Gia", "fullName": "Hà Nguyễn Gia Huy", "gender": "M"},
+        {"stt": 25, "id": "K264020906", "firstName": "Huyền", "lastName": "Cao Thị", "fullName": "Cao Thị Huyền", "gender": "F"},
+        {"stt": 26, "id": "K264020923", "firstName": "Huyền", "lastName": "Nguyễn Thị Thanh", "fullName": "Nguyễn Thị Thanh Huyền", "gender": "F"},
+        {"stt": 27, "id": "K264020931", "firstName": "Huyền", "lastName": "Trần Võ Thanh", "fullName": "Trần Võ Thanh Huyền", "gender": "F"},
+        {"stt": 28, "id": "K264021550", "firstName": "Ngân", "lastName": "Nguyễn Đỗ Thiên", "fullName": "Nguyễn Đỗ Thiên Ngân", "gender": "F"},
+        {"stt": 29, "id": "K264021656", "firstName": "Ngọc", "lastName": "Lê Bảo", "fullName": "Lê Bảo Ngọc", "gender": "F"},
+        {"stt": 30, "id": "K264021825", "firstName": "Nhi", "lastName": "Đoàn Nguyễn Yến", "fullName": "Đoàn Nguyễn Yến Nhi", "gender": "F"},
+        {"stt": 31, "id": "K264021980", "firstName": "Như", "lastName": "Trần Nguyễn Tâm", "fullName": "Trần Nguyễn Tâm Như", "gender": "F"},
+        {"stt": 32, "id": "K264022062", "firstName": "Phúc", "lastName": "Tiêu Nguyễn Thanh", "fullName": "Tiêu Nguyễn Thanh Phúc", "gender": "M"},
+        {"stt": 33, "id": "K264022121", "firstName": "Phương", "lastName": "Trần Thị Bích", "fullName": "Trần Thị Bích Phương", "gender": "F"},
+        {"stt": 34, "id": "K264022173", "firstName": "Quyên", "lastName": "Lê Yến Như", "fullName": "Lê Yến Như Quyên", "gender": "F"},
+        {"stt": 35, "id": "K264022195", "firstName": "Quỳnh", "lastName": "Huỳnh Việt Khánh", "fullName": "Huỳnh Việt Khánh Quỳnh", "gender": "F"},
+        {"stt": 36, "id": "K264022295", "firstName": "Thanh", "lastName": "Nguyễn Đinh Thiên", "fullName": "Nguyễn Đinh Thiên Thanh", "gender": "F"},
+        {"stt": 37, "id": "K264022311", "firstName": "Thảo", "lastName": "Bùi Thị Thanh", "fullName": "Bùi Thị Thanh Thảo", "gender": "F"},
+        {"stt": 38, "id": "K264022325", "firstName": "Thảo", "lastName": "Lưu Thanh Diệu", "fullName": "Lưu Thanh Diệu Thảo", "gender": "F"},
+        {"stt": 39, "id": "K264022330", "firstName": "Thảo", "lastName": "Nguyễn Lê Hiền", "fullName": "Nguyễn Lê Hiền Thảo", "gender": "F"},
+        {"stt": 40, "id": "K264022354", "firstName": "Thái", "lastName": "Bùi Quốc", "fullName": "Bùi Quốc Thái", "gender": "M"},
+        {"stt": 41, "id": "K264022360", "firstName": "Thái", "lastName": "Nguyễn Trọng", "fullName": "Nguyễn Trọng Thái", "gender": "M"},
+        {"stt": 42, "id": "K264022394", "firstName": "Thiện", "lastName": "Võ Gia", "fullName": "Võ Gia Thiện", "gender": "M"},
+        {"stt": 43, "id": "K264022430", "firstName": "Thuyền", "lastName": "Cao Tiểu", "fullName": "Cao Tiểu Thuyền", "gender": "F"},
+        {"stt": 44, "id": "K264022475", "firstName": "Thư", "lastName": "Đặng Quỳnh", "fullName": "Đặng Quỳnh Thư", "gender": "F"},
+        {"stt": 45, "id": "K264022498", "firstName": "Thư", "lastName": "Ngô Nguyễn Anh", "fullName": "Ngô Nguyễn Anh Thư", "gender": "F"},
+        {"stt": 46, "id": "K264022628", "firstName": "Tiên", "lastName": "Nguyễn Thủy", "fullName": "Nguyễn Thủy Tiên", "gender": "F"},
+        {"stt": 47, "id": "K264022633", "firstName": "Tiên", "lastName": "Phùng Thủy", "fullName": "Phùng Thủy Tiên", "gender": "F"},
+        {"stt": 48, "id": "K264022664", "firstName": "Trang", "lastName": "Hoàng Thùy", "fullName": "Hoàng Thùy Trang", "gender": "F"},
+        {"stt": 49, "id": "K264022673", "firstName": "Trang", "lastName": "Mai Thị Quỳnh", "fullName": "Mai Thị Quỳnh Trang", "gender": "F"},
+        {"stt": 50, "id": "K264022707", "firstName": "Trâm", "lastName": "Đặng Thị Bảo", "fullName": "Đặng Thị Bảo Trâm", "gender": "F"},
+        {"stt": 51, "id": "K264022726", "firstName": "Trâm", "lastName": "Nguyễn Ngọc Mai", "fullName": "Nguyễn Ngọc Mai Trâm", "gender": "F"},
+        {"stt": 52, "id": "K264022732", "firstName": "Trâm", "lastName": "Phan Quỳnh", "fullName": "Phan Quỳnh Trâm", "gender": "F"},
+        {"stt": 53, "id": "K264022784", "firstName": "Triết", "lastName": "Nguyễn Trịnh", "fullName": "Nguyễn Trịnh Triết", "gender": "M"},
+        {"stt": 54, "id": "K264022796", "firstName": "Trinh", "lastName": "Nguyễn Trần Thảo", "fullName": "Nguyễn Trần Thảo Trinh", "gender": "F"},
+        {"stt": 55, "id": "K264022838", "firstName": "Trúc", "lastName": "Phan Ngô Thanh", "fullName": "Phan Ngô Thanh Trúc", "gender": "F"},
+        {"stt": 56, "id": "K264022882", "firstName": "Tuyền", "lastName": "Nguyễn Thị Thanh", "fullName": "Nguyễn Thị Thanh Tuyền", "gender": "F"},
+        {"stt": 57, "id": "K264022935", "firstName": "Uyên", "lastName": "Nguyễn Hoàng Mai", "fullName": "Nguyễn Hoàng Mai Uyên", "gender": "F"},
+        {"stt": 58, "id": "K264022953", "firstName": "Uyên", "lastName": "Vũ Duy", "fullName": "Vũ Duy Uyên", "gender": "F"},
+        {"stt": 59, "id": "K264022977", "firstName": "Vi", "lastName": "Hoàng Trúc", "fullName": "Hoàng Trúc Vi", "gender": "F"},
+        {"stt": 60, "id": "K264022998", "firstName": "Vinh", "lastName": "Nguyễn Quan", "fullName": "Nguyễn Quan Vinh", "gender": "M"}
+      ];
+
+      // =====================================================
+      // 2. BỘ 5 CÂU CHÚC 20/10 DÀNH CHO CÁC BẠN NỮ
+      // =====================================================
+      const FEMALE_WISH_TEMPLATES = [
+        function (student) {
+          return '<p>Nhân ngày Phụ nữ Việt Nam <strong class="font-bold">20/10</strong>, chúc <strong class="font-bold italic underline decoration-[#FBA1B7]">' + student.fullName + '</strong> luôn xinh đẹp rạng ngời, <em class="italic">tươi tắn như những đoá hoa sớm mai</em> và ngập tràn năng lượng tích cực!</p>' +
+                 '<p>Mong rằng mỗi ngày đi học cùng đại gia đình <strong class="font-bold">K26402B</strong> đều là một ngày vui vẻ, <em class="italic">học tập đạt kết quả xuất sắc</em>, <strong class="font-bold italic">GPA kịch trần và luôn được yêu thương chiều chuộng hết mực nhé!</strong> 💖🌷</p>';
+        },
+        function (student) {
+          return '<p>Gửi ngàn lời chúc ngọt ngào nhất đến <strong class="font-bold italic">' + student.fullName + '</strong> nhân dịp <strong class="font-bold">20 tháng 10</strong>! Chúc <em class="italic">' + student.firstName + '</em> luôn giữ vững thần thái tự tin, <strong class="font-bold">visual đỉnh chóp</strong> và nụ cười toả nắng làm tan chảy mọi deadline.</p>' +
+                 '<p><em class="italic">Dù thế giới ngoài kia có bận rộn thế nào</em>, chúc bạn luôn <strong class="font-bold italic">bình yên, hạnh phúc, túi tiền rủng rỉnh và nhận được thật nhiều hoa cùng quà xinh hôm nay!</strong> 🌸✨</p>';
+        },
+        function (student) {
+          return '<p>Happy Vietnamese Women\'s Day <strong class="font-bold">20/10</strong>! Chúc cô gái tuyệt vời của lớp <strong class="font-bold">K26402B</strong> — <strong class="font-bold italic">' + student.fullName + '</strong> — luôn là phiên bản <em class="italic">rực rỡ, kiêu hãnh và hạnh phúc nhất</em>.</p>' +
+                 '<p>Chúc <strong class="font-bold">' + student.firstName + '</strong> <em class="italic">ăn hoài không béo, thức khuya không lên mụn</em>, thi môn nào cũng <strong class="font-bold italic">A+ thẳng tiến</strong> và lúc nào cũng tràn ngập tiếng cười bên bạn bè! 💐👑</p>';
+        },
+        function (student) {
+          return '<p>Tháng Mười về mang theo gió thu dịu dàng và ngày lễ đặc biệt của <strong class="font-bold italic">' + student.fullName + '</strong>! Tập thể <strong class="font-bold">K26402B</strong> chúc bạn một ngày <strong class="font-bold">20/10</strong> <em class="italic">ngập tràn niềm vui bất ngờ</em>.</p>' +
+                 '<p>Chúc bạn luôn <strong class="font-bold">mạnh mẽ trước mọi thử thách</strong>, <em class="italic">dịu dàng với chính mình</em>, và sớm chạm tay tới mọi ước mơ mà <strong class="font-bold italic">' + student.firstName + ' đang ấp ủ nhé!</strong> 🎀💌</p>';
+        },
+        function (student) {
+          return '<p>Chúc mừng ngày <strong class="font-bold">20/10</strong> tới “nữ thần” <strong class="font-bold italic">' + student.fullName + '</strong>! Cảm ơn bạn vì đã là một mảnh ghép <em class="italic">xinh đẹp, đáng yêu và đầy sắc màu</em> của tập thể <strong class="font-bold">K26402B</strong>.</p>' +
+                 '<p>Chúc <strong class="font-bold italic">' + student.firstName + '</strong> hôm nay nhận quà mỏi tay, <em class="italic">chụp ảnh tấm nào cũng triệu tim</em> và <strong class="font-bold">365 ngày trong năm đều được nâng niu như công chúa!</strong> 🌷🎉</p>';
+        }
+      ];
+
+      // =====================================================
+      // 3. STATE & HELPER FUNCTIONS
+      // =====================================================
+      let currentDirectoryFilter = "ALL";
+      let currentFemaleStudent = CLASS_K26402B[0];
+      let currentWishIndex = 0;
+      let femaleMemeIframeMode = false;
+      let maleMemeIframeMode = false;
+
+      function removeVietnameseTones(str) {
+        if (!str) return "";
+        return str
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/đ/g, "d")
+          .replace(/Đ/g, "D")
+          .toLowerCase()
+          .trim();
+      }
+
+      function getEl(id) {
+        return document.getElementById(id);
+      }
+
+      function goToScreen(screenId) {
+        const screens = ["screenLanding", "screenSearch", "screenFemaleResult", "screenMaleResult"];
+        screens.forEach(function (id) {
+          const el = getEl(id);
+          if (!el) return;
+          if (id === screenId) {
+            el.classList.remove("screen-hidden");
+          } else {
+            el.classList.add("screen-hidden");
+          }
+        });
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      // =====================================================
+      // 4. DIRECTORY & SEARCH LOGIC
+      // =====================================================
+      function updateFilterButtonStyles() {
+        const allBtn = getEl("filterAllBtn");
+        const femBtn = getEl("filterFemaleBtn");
+        const maleBtn = getEl("filterMaleBtn");
+        if (!allBtn || !femBtn || !maleBtn) return;
+
+        allBtn.className = currentDirectoryFilter === "ALL"
+          ? "px-3 py-1 rounded-full bg-[#FBA1B7] text-[#541E2B] font-bold shadow-sm transition"
+          : "px-3 py-1 rounded-full bg-white/60 hover:bg-[#FFD1DA] text-[#541E2B] transition";
+
+        femBtn.className = currentDirectoryFilter === "F"
+          ? "px-3 py-1 rounded-full bg-[#FBA1B7] text-[#541E2B] font-bold italic shadow-sm transition"
+          : "px-3 py-1 rounded-full bg-[#FFD1DA]/70 hover:bg-[#FBA1B7] text-[#541E2B] italic font-semibold transition";
+
+        maleBtn.className = currentDirectoryFilter === "M"
+          ? "px-3 py-1 rounded-full bg-[#FBA1B7] text-[#541E2B] font-bold italic shadow-sm transition"
+          : "px-3 py-1 rounded-full bg-[#FFDBAA]/80 hover:bg-[#FBA1B7] text-[#541E2B] italic font-semibold transition";
+      }
+
+      function renderStudentDirectory() {
+        const inputEl = getEl("studentSearchInput");
+        const rawQuery = inputEl ? inputEl.value.trim() : "";
+        const normQuery = removeVietnameseTones(rawQuery);
+
+        const filtered = CLASS_K26402B.filter(function (s) {
+          if (currentDirectoryFilter !== "ALL" && s.gender !== currentDirectoryFilter) {
+            return false;
+          }
+          if (!normQuery) return true;
+          const normFull = removeVietnameseTones(s.fullName);
+          const normFirst = removeVietnameseTones(s.firstName);
+          const normId = s.id.toLowerCase();
+          return (
+            normFull.indexOf(normQuery) !== -1 ||
+            normFirst.indexOf(normQuery) !== -1 ||
+            normId.indexOf(normQuery) !== -1
+          );
+        });
+
+        const countLabel = getEl("suggestionCountLabel");
+        if (countLabel) {
+          countLabel.textContent = "(Tìm thấy " + filtered.length + " thành viên phù hợp)";
+        }
+
+        const container = getEl("studentGridContainer");
+        if (!container) return;
+        container.innerHTML = "";
+
+        if (filtered.length === 0) {
+          const emptyDiv = document.createElement("div");
+          emptyDiv.className = "col-span-full py-6 text-center text-sm italic text-[#7D3246]";
+          emptyDiv.innerHTML = 'Không tìm thấy tên trùng khớp trong danh sách K26402B. Bạn vẫn có thể bấm <strong>“Xem tiếp”</strong> để mở điều bất ngờ nhé!';
+          container.appendChild(emptyDiv);
+          return;
+        }
+
+        filtered.forEach(function (student) {
+          const isFemale = student.gender === "F";
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "text-left rounded-xl p-2.5 transition flex items-center justify-between gap-2 border " +
+            (isFemale
+              ? "bg-[#FFF0F5] hover:bg-[#FFD1DA] border-[#FBA1B7]"
+              : "bg-[#FFDBAA]/45 hover:bg-[#FFDBAA] border-[#FBA1B7]/70");
+
+          btn.innerHTML =
+            '<div class="truncate">' +
+              '<div class="text-sm font-bold text-[#541E2B] truncate">' +
+                (isFemale ? "🌸 " : "🕵️‍♂️ ") + student.fullName +
+              '</div>' +
+              '<div class="text-xs italic text-[#7D3246]">' +
+                "STT #" + String(student.stt).padStart(2, "0") + " • " + student.id +
+              '</div>' +
+            '</div>' +
+            '<span class="shrink-0 text-xs font-bold px-2 py-0.5 rounded-full ' +
+              (isFemale ? "bg-[#FFD1DA] text-[#541E2B]" : "bg-[#FFDBAA] text-[#541E2B]") + '">' +
+              "Chọn →" +
+            '</span>';
+
+          btn.addEventListener("click", function () {
+            selectStudentById(student.id);
+          });
+
+          container.appendChild(btn);
+        });
+      }
+
+      function selectStudentById(studentId) {
+        const student = CLASS_K26402B.find(function (s) {
+          return s.id === studentId;
+        });
+        if (!student) return;
+
+        const helperAlert = getEl("searchHelperAlert");
+        if (helperAlert) helperAlert.classList.add("hidden");
+
+        if (student.gender === "F") {
+          showFemaleSurprise(student);
+        } else {
+          showMaleSurprise(student);
+        }
+      }
+
+      function submitSearchName() {
+        const inputEl = getEl("studentSearchInput");
+        const rawInput = inputEl ? inputEl.value.trim() : "";
+        const helperAlert = getEl("searchHelperAlert");
+
+        if (!rawInput) {
+          if (helperAlert) {
+            helperAlert.classList.remove("hidden");
+            helperAlert.innerHTML = '⚠️ <strong class="font-bold">Bạn quên nhập tên kìa!</strong> <em class="italic">Hãy gõ tên của bạn hoặc bấm chọn trực tiếp một tên trong danh sách gợi ý bên dưới nhé.</em>';
+          }
+          return;
+        }
+
+        const normInput = removeVietnameseTones(rawInput);
+
+        const exactMatches = CLASS_K26402B.filter(function (s) {
+          return (
+            removeVietnameseTones(s.fullName) === normInput ||
+            s.id.toLowerCase() === normInput
+          );
+        });
+
+        if (exactMatches.length === 1) {
+          selectStudentById(exactMatches[0].id);
+          return;
+        }
+
+        const firstNameMatches = CLASS_K26402B.filter(function (s) {
+          return removeVietnameseTones(s.firstName) === normInput;
+        });
+
+        if (firstNameMatches.length === 1) {
+          selectStudentById(firstNameMatches[0].id);
+          return;
+        }
+
+        if (firstNameMatches.length > 1) {
+          showDisambiguationChoices(rawInput, firstNameMatches);
+          return;
+        }
+
+        const partialMatches = CLASS_K26402B.filter(function (s) {
+          return (
+            removeVietnameseTones(s.fullName).indexOf(normInput) !== -1 ||
+            s.id.toLowerCase().indexOf(normInput) !== -1
+          );
+        });
+
+        if (partialMatches.length === 1) {
+          selectStudentById(partialMatches[0].id);
+          return;
+        }
+
+        if (partialMatches.length > 1) {
+          showDisambiguationChoices(rawInput, partialMatches);
+          return;
+        }
+
+        if (helperAlert) {
+          helperAlert.classList.remove("hidden");
+          helperAlert.innerHTML = "";
+
+          const titleP = document.createElement("div");
+          titleP.className = "mb-2 text-[#541E2B]";
+          titleP.innerHTML = '✨ Tên <strong class="font-bold italic">“' + rawInput + '”</strong> không nằm trong danh sách 60 thành viên cố định của K26402B. Bạn muốn xem thiệp với vai trò nào?';
+
+          const btnWrap = document.createElement("div");
+          btnWrap.className = "flex flex-wrap gap-2 mt-2";
+
+          const btnGuestF = document.createElement("button");
+          btnGuestF.type = "button";
+          btnGuestF.className = "px-3.5 py-1.5 rounded-xl bg-[#FBA1B7] font-bold text-xs text-[#541E2B] hover:opacity-90";
+          btnGuestF.innerHTML = "🌸 Xem lời chúc Nữ cho “" + rawInput + "”";
+          btnGuestF.addEventListener("click", function () {
+            const parts = rawInput.split(" ");
+            showFemaleSurprise({
+              stt: "20/10",
+              id: "K26402B-GUEST",
+              firstName: parts[parts.length - 1] || rawInput,
+              lastName: "",
+              fullName: rawInput,
+              gender: "F"
+            });
+          });
+
+          const btnGuestM = document.createElement("button");
+          btnGuestM.type = "button";
+          btnGuestM.className = "px-3.5 py-1.5 rounded-xl bg-[#FFDBAA] font-bold text-xs text-[#541E2B] hover:opacity-90";
+          btnGuestM.innerHTML = "🕵️‍♂️ Xem meme Nam cho “" + rawInput + "”";
+          btnGuestM.addEventListener("click", function () {
+            const parts = rawInput.split(" ");
+            showMaleSurprise({
+              stt: "99",
+              id: "K26402B-NAM",
+              firstName: parts[parts.length - 1] || rawInput,
+              lastName: "",
+              fullName: rawInput,
+              gender: "M"
+            });
+          });
+
+          btnWrap.appendChild(btnGuestF);
+          btnWrap.appendChild(btnGuestM);
+          helperAlert.appendChild(titleP);
+          helperAlert.appendChild(btnWrap);
+        }
+      }
+
+      function showDisambiguationChoices(queryText, matches) {
+        const helperAlert = getEl("searchHelperAlert");
+        if (!helperAlert) return;
+
+        helperAlert.classList.remove("hidden");
+        helperAlert.innerHTML = "";
+
+        const infoDiv = document.createElement("div");
+        infoDiv.className = "mb-2 text-[#541E2B]";
+        infoDiv.innerHTML = '🌸 Lớp <strong class="font-bold">K26402B</strong> có <strong class="font-bold">' + matches.length + ' bạn</strong> trùng với từ khoá <em class="italic">“' + queryText + '”</em>. Hãy bấm chọn đúng tên của bạn nhé:';
+
+        const listDiv = document.createElement("div");
+        listDiv.className = "flex flex-wrap gap-2";
+
+        matches.forEach(function (m) {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "px-3 py-1.5 rounded-xl bg-[#FFD1DA] hover:bg-[#FBA1B7] border border-[#FBA1B7] text-xs font-bold text-[#541E2B] transition";
+          b.textContent = (m.gender === "F" ? "🌸 " : "🕵️‍♂️ ") + m.fullName + " (" + m.id + ")";
+          b.addEventListener("click", function () {
+            selectStudentById(m.id);
+          });
+          listDiv.appendChild(b);
+        });
+
+        helperAlert.appendChild(infoDiv);
+        helperAlert.appendChild(listDiv);
+      }
+
+      function showFemaleSurprise(student) {
+        currentFemaleStudent = student;
+        currentWishIndex = (typeof student.stt === "number")
+          ? (student.stt - 1) % FEMALE_WISH_TEMPLATES.length
+          : 0;
+
+        const fullNameEl = getEl("femaleFullName");
+        const idEl = getEl("femaleStudentId");
+        const sttEl = getEl("femaleStudentStt");
+        const shortMemeEl = getEl("femaleShortNameMeme");
+
+        if (fullNameEl) fullNameEl.textContent = student.fullName;
+        if (idEl) idEl.textContent = student.id;
+        if (sttEl) sttEl.textContent = "#" + String(student.stt).padStart(2, "0");
+        if (shortMemeEl) shortMemeEl.textContent = student.firstName || student.fullName;
+
+        renderFemaleWishText();
+        goToScreen("screenFemaleResult");
+        celebrateConfetti();
+      }
+
+      function renderFemaleWishText() {
+        const container = getEl("femaleWishContent");
+        const badge = getEl("wishIndexBadge");
+        const templateFn = FEMALE_WISH_TEMPLATES[currentWishIndex];
+        if (container && templateFn) {
+          container.innerHTML = templateFn(currentFemaleStudent);
+        }
+        if (badge) {
+          badge.textContent = "Lời chúc #" + (currentWishIndex + 1) + "/" + FEMALE_WISH_TEMPLATES.length;
+        }
+      }
+
+      function cycleFemaleWish() {
+        currentWishIndex = (currentWishIndex + 1) % FEMALE_WISH_TEMPLATES.length;
+        renderFemaleWishText();
+      }
+
+      function showMaleSurprise(student) {
+        const metaEl = getEl("maleStudentMeta");
+        const highlightEl = getEl("maleFullNameHighlight");
+        if (metaEl) metaEl.textContent = student.fullName + " (" + student.id + ")";
+        if (highlightEl) highlightEl.textContent = student.fullName;
+        goToScreen("screenMaleResult");
+      }
+
+      function setupDriveImageFallback(imgId, fileId, iframeWrapId, imgWrapId) {
+        const imgEl = getEl(imgId);
+        if (!imgEl) return;
+
+        imgEl.addEventListener("error", function () {
+          const currentAttempt = parseInt(imgEl.getAttribute("data-attempt") || "0", 10);
+          if (currentAttempt === 0) {
+            imgEl.setAttribute("data-attempt", "1");
+            imgEl.src = "https://lh3.googleusercontent.com/d/" + fileId;
+          } else {
+            const imgWrap = getEl(imgWrapId);
+            const iframeWrap = getEl(iframeWrapId);
+            if (imgWrap) imgWrap.classList.add("hidden");
+            if (iframeWrap) iframeWrap.classList.remove("hidden");
+          }
+        });
+      }
+
+      function toggleFemaleMemeEmbedMode() {
+        femaleMemeIframeMode = !femaleMemeIframeMode;
+        const img1 = getEl("femaleMemeImgWrap1");
+        const img2 = getEl("femaleMemeImgWrap2");
+        const ifr1 = getEl("femaleMemeIframeWrap1");
+        const ifr2 = getEl("femaleMemeIframeWrap2");
+
+        if (img1 && ifr1) {
+          img1.classList.toggle("hidden", femaleMemeIframeMode);
+          ifr1.classList.toggle("hidden", !femaleMemeIframeMode);
+        }
+        if (img2 && ifr2) {
+          img2.classList.toggle("hidden", femaleMemeIframeMode);
+          ifr2.classList.toggle("hidden", !femaleMemeIframeMode);
+        }
+      }
+
+      function toggleMaleMemeEmbedMode() {
+        maleMemeIframeMode = !maleMemeIframeMode;
+        const imgWrap = getEl("maleMemeImgWrap");
+        const ifrWrap = getEl("maleMemeIframeWrap");
+        if (imgWrap && ifrWrap) {
+          imgWrap.classList.toggle("hidden", maleMemeIframeMode);
+          ifrWrap.classList.toggle("hidden", !maleMemeIframeMode);
+        }
+      }
+
+      const petals = [];
+      const PALETTE_COLORS = ["#FBA1B7", "#FFD1DA", "#FFF0F5", "#FFDBAA"];
+
+      function createPetal(canvasWidth, canvasHeight, burstMode) {
+        return {
+          x: Math.random() * canvasWidth,
+          y: burstMode ? -20 - Math.random() * 100 : Math.random() * canvasHeight,
+          r: 5 + Math.random() * 7,
+          color: PALETTE_COLORS[Math.floor(Math.random() * PALETTE_COLORS.length)],
+          vx: -0.6 + Math.random() * 1.2,
+          vy: (burstMode ? 2.5 : 0.7) + Math.random() * 1.6,
+          angle: Math.random() * Math.PI * 2,
+          spin: -0.03 + Math.random() * 0.06
+        };
+      }
+
+      function initPetalCanvas() {
+        const canvas = getEl("petalCanvas");
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return;
+
+        function resizeCanvas() {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+        window.addEventListener("resize", resizeCanvas);
+
+        for (let i = 0; i < 28; i++) {
+          petals.push(createPetal(canvas.width, canvas.height, false));
+        }
+
+        function animatePetals() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          for (let i = 0; i < petals.length; i++) {
+            const p = petals[i];
+            p.x += p.vx;
+            p.y += p.vy;
+            p.angle += p.spin;
+
+            if (p.y > canvas.height + 20) {
+              p.y = -15;
+              p.x = Math.random() * canvas.width;
+            }
+            if (p.x > canvas.width + 20) p.x = -15;
+            if (p.x < -20) p.x = canvas.width + 15;
+
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.angle);
+            ctx.fillStyle = p.color;
+            ctx.beginPath();
+            ctx.ellipse(0, 0, p.r, p.r * 0.62, 0, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+          }
+          requestAnimationFrame(animatePetals);
+        }
+
+        requestAnimationFrame(animatePetals);
+      }
+
+      function celebrateConfetti() {
+        const canvas = getEl("petalCanvas");
+        if (!canvas) return;
+        for (let i = 0; i < 22; i++) {
+          petals.push(createPetal(canvas.width, canvas.height, true));
+        }
+        if (petals.length > 65) {
+          petals.splice(0, petals.length - 65);
+        }
+      }
+
+      function initApp() {
+        const btnOpenSurprise = getEl("btnOpenSurprise");
+        if (btnOpenSurprise) {
+          btnOpenSurprise.addEventListener("click", function () {
+            goToScreen("screenSearch");
+            setTimeout(function () {
+              const input = getEl("studentSearchInput");
+              if (input) input.focus();
+            }, 200);
+          });
+        }
+
+        const btnBackToLanding = getEl("btnBackToLanding");
+        if (btnBackToLanding) {
+          btnBackToLanding.addEventListener("click", function () {
+            goToScreen("screenLanding");
+          });
+        }
+
+        const btnBackFromFemale = getEl("btnBackFromFemale");
+        if (btnBackFromFemale) {
+          btnBackFromFemale.addEventListener("click", function () {
+            goToScreen("screenSearch");
+          });
+        }
+
+        const btnBackFromMale = getEl("btnBackFromMale");
+        if (btnBackFromMale) {
+          btnBackFromMale.addEventListener("click", function () {
+            goToScreen("screenSearch");
+          });
+        }
+
+        const btnToFemaleListFromMale = getEl("btnToFemaleListFromMale");
+        if (btnToFemaleListFromMale) {
+          btnToFemaleListFromMale.addEventListener("click", function () {
+            currentDirectoryFilter = "F";
+            const input = getEl("studentSearchInput");
+            if (input) input.value = "";
+            const clearBtn = getEl("clearInputBtn");
+            if (clearBtn) clearBtn.classList.add("hidden");
+            updateFilterButtonStyles();
+            renderStudentDirectory();
+            goToScreen("screenSearch");
+          });
+        }
+
+        const searchInput = getEl("studentSearchInput");
+        const clearBtn = getEl("clearInputBtn");
+        const helperAlert = getEl("searchHelperAlert");
+
+        if (searchInput) {
+          searchInput.addEventListener("input", function () {
+            const val = searchInput.value;
+            if (clearBtn) {
+              clearBtn.classList.toggle("hidden", val.length === 0);
+            }
+            if (helperAlert) {
+              helperAlert.classList.add("hidden");
+            }
+            renderStudentDirectory();
+          });
+
+          searchInput.addEventListener("keydown", function (e) {
+            if (e.key === "Enter") {
+              e.preventDefault();
+              submitSearchName();
+            }
+          });
+        }
+
+        if (clearBtn) {
+          clearBtn.addEventListener("click", function () {
+            if (searchInput) {
+              searchInput.value = "";
+              searchInput.focus();
+            }
+            clearBtn.classList.add("hidden");
+            if (helperAlert) helperAlert.classList.add("hidden");
+            renderStudentDirectory();
+          });
+        }
+
+        const btnSubmitSearch = getEl("btnSubmitSearch");
+        if (btnSubmitSearch) {
+          btnSubmitSearch.addEventListener("click", submitSearchName);
+        }
+
+        const filterAllBtn = getEl("filterAllBtn");
+        const filterFemaleBtn = getEl("filterFemaleBtn");
+        const filterMaleBtn = getEl("filterMaleBtn");
+
+        if (filterAllBtn) {
+          filterAllBtn.addEventListener("click", function () {
+            currentDirectoryFilter = "ALL";
+            updateFilterButtonStyles();
+            renderStudentDirectory();
+          });
+        }
+        if (filterFemaleBtn) {
+          filterFemaleBtn.addEventListener("click", function () {
+            currentDirectoryFilter = "F";
+            updateFilterButtonStyles();
+            renderStudentDirectory();
+          });
+        }
+        if (filterMaleBtn) {
+          filterMaleBtn.addEventListener("click", function () {
+            currentDirectoryFilter = "M";
+            updateFilterButtonStyles();
+            renderStudentDirectory();
+          });
+        }
+
+        const btnCelebrateConfetti = getEl("btnCelebrateConfetti");
+        if (btnCelebrateConfetti) {
+          btnCelebrateConfetti.addEventListener("click", celebrateConfetti);
+        }
+
+        const btnCycleWish = getEl("btnCycleWish");
+        if (btnCycleWish) {
+          btnCycleWish.addEventListener("click", cycleFemaleWish);
+        }
+
+        const btnToggleFemaleMemeMode = getEl("btnToggleFemaleMemeMode");
+        if (btnToggleFemaleMemeMode) {
+          btnToggleFemaleMemeMode.addEventListener("click", toggleFemaleMemeEmbedMode);
+        }
+
+        const btnToggleMaleMemeMode = getEl("btnToggleMaleMemeMode");
+        if (btnToggleMaleMemeMode) {
+          btnToggleMaleMemeMode.addEventListener("click", toggleMaleMemeEmbedMode);
+        }
+
+        setupDriveImageFallback(
+          "femaleMemeImg1",
+          "1jXX7H9l5HGz-9dpnB5vxuuDX7pvIGd-n",
+          "femaleMemeIframeWrap1",
+          "femaleMemeImgWrap1"
+        );
+        setupDriveImageFallback(
+          "femaleMemeImg2",
+          "1xcABnwAkwLELhBr3kQG_Av7sbYoqThF1",
+          "femaleMemeIframeWrap2",
+          "femaleMemeImgWrap2"
+        );
+        setupDriveImageFallback(
+          "maleMemeImg",
+          "1APOaEx5gtC2DZZx-4TpXKjlppgbFPoB8",
+          "maleMemeIframeWrap",
+          "maleMemeImgWrap"
+        );
+
+        renderStudentDirectory();
+        initPetalCanvas();
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initApp);
+      } else {
+        initApp();
+      }
+    })();
+  </script>
+</body>
+</html>
